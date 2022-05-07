@@ -1,0 +1,8 @@
+version: '3'
+services:
+  server:
+     container_name:server
+build:
+  dockerfile:dockerfile
+ports:
+  - "6000:1111"
